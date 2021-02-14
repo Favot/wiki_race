@@ -1,0 +1,56 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* --- Components design --- */
+@import url("components/avatar.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/tabs.css");
+@import url("components/notification.css");
+@import url("components/container.css");
+@import url("components/footer.css");
+/* --- Fonts --- */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  line-height: 1.6;
+  letter-spacing: 1px;
+  background-color: #f7f6f3;
+  font-size: 24px;
+
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: rgba(223, 134, 150, 1);
+}
+
+p {
+  color: rgba(98, 89, 230, 1);
+}
+
+/* Remove all text decoration by default */
+a {
+  text-decoration: none;
+  color: rgb(223, 134, 150);
+}
+
+a:hover {
+  color: rgb(148, 146, 146);
+}
+
+* {
+  /* This makes sure the padding doesn't make element overflow from div */
+  box-sizing: border-box;
+  /* kill the margin that the browser is adding by default */
+  margin: 0;
+  padding: 0;
+}
